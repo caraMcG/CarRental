@@ -1,0 +1,224 @@
+/*part3.css*/
+
+/*HEADER*/
+
+header
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+	background: rgb(226,226,226); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+	color: #121724; 
+	width: 100%; 
+	position: absolute; 
+	top: 0;
+	left: 0; 
+}
+
+header h1 
+{
+	margin-left: 609px;
+}
+
+#h1in
+{
+	margin-right: 590px;
+	text-align:center;
+}
+
+#logo
+{
+	width: 150px;
+	height: auto;
+	float: left; 
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+}
+
+#bord
+{
+	width: 100%;
+	padding-bottom: 7px;
+	position: absolute;
+	bottom: 0;
+	font-size: 10px;
+	text-align: center;
+}
+
+/*MAIN BODY*/
+
+body
+{
+	background: url("photos/dodgeBrakes.jpg");
+	background-position: 0 -10px;
+	/* background-size: 1440px 920px;  */
+	background-size: cover; 
+	/* background-repeat: repeat-y; */
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main
+{
+	margin-top: 10%;
+	width: 90%;
+	/*background: white;*/
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.mainIndex
+{
+	margin-top: 10%;
+	width: 60%;
+	/*background: white;*/
+	margin-left: 20%;
+	margin-right:20%;
+	text-align: center;
+}
+
+#searchDiv
+{
+	float: center; 
+	text-align: center;
+}
+	#searchTable
+	{
+		margin-left: 46%;
+	}
+
+#tableData
+{
+	margin-left: 46%;
+}
+
+#parsed
+{
+	background: rgba(193, 179, 172, 0.30);
+}
+
+	#tableData tr:hover
+	{
+		background: rgba(193, 179, 172, 0.70);
+		cursor: pointer;
+	}
+
+#editForm
+{
+	float:left;
+	background: rgba(255, 255, 255, 0.45);
+	border-radius: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-shadow: 5px 2px 15px #232120bf;
+	width: 30%;
+	font-size: 11px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+	#editForm th, #editForm td
+	{
+		padding-right: 15px;
+	}
+	
+	#editForm th
+	{
+		font-size: 15px;
+	}
+
+	#editForm h3
+	{
+		margin-left: 40%;
+	}
+
+	#thumbnail
+	{
+		height: 30px; 
+		width: auto;
+		border-radius: 50%;
+	}
+	
+.button
+{
+	padding: 10px 20px;
+	background: #222b42;
+	color: white; 
+	border: none;
+}	
+
+#complete
+{
+	margin-left: 35%; 
+	width: 25%;
+	background: rgba(255, 255, 255, 0.45);
+	border-radius: 10px;
+	font-size: 13px;
+	padding:15px;
+	box-shadow: 5px 2px 15px #232120bf;
+}
+
+#button2
+{
+	border: none; 
+	text-decoration: none;
+	color: #F4F4F4;
+	font-size: 15px;
+	font-weight:bold;
+	padding: 15px 32px; 
+	text-align: center;
+	background: #222b42;
+}
+	#button2:hover, .button:hover
+	{
+		background: #121724;
+		cursor: pointer;
+	}
+
+.reset
+{
+	border: none; 
+	background: none;
+	color: #bf000f;
+}
+	.reset:hover
+	{
+		color: #96000c;
+		cursor: pointer;
+	}
+
+/*HIDDEN FORM*/
+
+#editForm input[type=text]
+{
+	background: none;
+	border: none;
+	color: black;
+	/*background: #bfbfbf;
+	border: 1px solid darkgrey;*/
+	padding-left: 5px;
+}
+
+#editForm input[type=number]
+{
+	width: 3em;
+}
+
+
+/*FOOTER*/
+
+footer
+{
+	background: #121724;
+	color: #F4F4F4; 
+	width: 100%; 
+	position: absolute;
+	bottom: 0;
+	left:0;
+	font-size: 10px;
+	text-align: center; 
+
+}
+
